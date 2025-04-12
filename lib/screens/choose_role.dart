@@ -17,17 +17,15 @@ class ChooseRoleScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Spacer(),
-        
           Column(
             children: [
               Image.asset('assets/images/logo.png', height: 100),
               SizedBox(height: 10),
             ],
           ),
-          SizedBox(height: 50), 
-         
+          SizedBox(height: 50),
           Container(
-            height: 300, 
+            height: 300,
             padding: EdgeInsets.symmetric(vertical: 20, horizontal: 15),
             decoration: BoxDecoration(
               color: Colors.white,
@@ -67,8 +65,8 @@ class ChooseRoleScreen extends StatelessWidget {
         width: double.infinity,
         child: OutlinedButton(
           onPressed: () {
-            if (role == 'Patient') {
-              Navigator.pushNamed(context, '/sign_up');
+            if (role == 'Doctor') {
+              Navigator.pushNamed(context, '/doctor_home_view');
             }
           },
           style: OutlinedButton.styleFrom(
