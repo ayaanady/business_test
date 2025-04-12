@@ -16,7 +16,7 @@ import 'screens/upload.dart';
 import 'screens/health_history.dart';
 import 'screens/confirmaion.dart';
 import 'screens/chat.dart';
-import 'screens/settings_screen.dart'; // تأكد من إضافة ملف الإعدادات هنا
+import 'screens/settings_screen.dart'; 
 
 void main() {
   runApp(MyApp());
