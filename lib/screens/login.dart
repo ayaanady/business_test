@@ -105,7 +105,6 @@ class LoginScreen extends StatelessWidget {
                   height: 50,
                   child: ElevatedButton(
                     onPressed: () {
-                 
                       if (_emailController.text.isNotEmpty &&
                           _passwordController.text.isNotEmpty) {
                         Navigator.push(
