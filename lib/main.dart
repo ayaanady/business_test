@@ -1,3 +1,6 @@
+import 'package:buisness_test/screens/choose_for_doctor.dart';
+import 'package:buisness_test/screens/diagnose_one.dart';
+import 'package:buisness_test/screens/patient_list.dart';
 import 'package:flutter/material.dart';
 import 'screens/splash_screen.dart';
 import 'screens/onboarding_screen1.dart';
@@ -47,6 +50,9 @@ class MyApp extends StatelessWidget {
         '/appointment_confirmation': (context) => ConfirmationScreen(),
         '/chat': (context) => ChatScreen(),
         '/settings': (context) => SettingsScreen(), 
+        '/doctor_home_view': (context) => DoctorHomeView(),
+        '/patient_list_view': (context) => PatientListScreen(),
+        '/diagnose_one': (context) => DiagnoseOneScreen(),
       },
     );
   }
